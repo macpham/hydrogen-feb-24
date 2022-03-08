@@ -30,7 +30,7 @@ export default function ProductCard({product}) {
           )}
         </div>
 
-        <h3 className="text-black font-semibold mb-0.5">{product.title}!</h3>
+        <h2 className="text-black font-semibold mb-0.5">{product.title}!</h2>
 
         {product.vendor && (
           <p className="text-gray-900 font-medium text-sm mb-0.5">
